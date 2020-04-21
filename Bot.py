@@ -1,7 +1,6 @@
 import telebot
-#
 
-from telebot import types
+import types
 
 
 keyboardStart = types.InlineKeyboardMarkup(row_width=2)
