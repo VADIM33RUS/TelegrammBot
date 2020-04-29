@@ -17,6 +17,7 @@ def define_timezone(message):
     bot.send_message(message.chat.id,
                      'Нажмите на кнопку для определения вашего часового пояса', reply_markup=keyboardTimezone)
     a = message.location
+    bot.send_message(message.chat.id, a)
 
 
 bot.polling(none_stop=True)
